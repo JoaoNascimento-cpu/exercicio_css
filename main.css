@@ -1,0 +1,11 @@
+header{
+    background-color: aqua;
+    padding-left: 200px;
+    height: auto;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
