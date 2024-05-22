@@ -15,26 +15,31 @@ header ul{
     padding-left: 200px;
 }
 
-
-
-.articulos1{
-    display: flex;
-    margin-top: 40px;
+/* Esportes */
+.div1{
+    background-color: rgba(0, 89, 255, 0.300);
 }
 
-.articulos2{
-    display: flex;
-    padding-top: 60px;
+/* Economia */
+.div2{
+    background-color: rgba(0, 255, 13, 0.300);
+    justify-content: space-between;
 }
 
-.articulos3{
-    display: flex;
-    margin-top: 40px;
+/* Entretenimento */
+.div3{
+    background-color: rgba(255, 0, 242, 0.300);
 }
 
-.articulos4{
+/* Tecnologia */
+.div4{
+    background-color: rgba(0, 195, 255, 0.300);
+}
+
+.articulos{
     display: flex;
-    padding-top: 60px;
+    padding-top: 30px;
+    justify-content: space-around;
 }
 
 * img{
@@ -42,7 +47,16 @@ header ul{
     height: 200px;
 }
 
-.articles article h3{
+* p{
+   font-size: 14px; 
+   font: italic;
+}
+
+* article{
+    border: groove;
+    border-width: 6px;
+}
+.articulos h3{
     margin-top: 8px;
     margin-bottom: 8px;
 }
