@@ -1,11 +1,48 @@
 header{
-    background-color: aqua;
+   /*  background-color: aqua; */
     padding-left: 200px;
     height: auto;
 }
 
+header h1{
+    padding-left: 300px;
+}
+
 header ul{
     display: flex;
-    justify-content: space-around;
-    width: 400px;
+    justify-content: space-evenly;
+    width: 500px;
+    padding-left: 200px;
+}
+
+
+
+.articulos1{
+    display: flex;
+    margin-top: 40px;
+}
+
+.articulos2{
+    display: flex;
+    padding-top: 60px;
+}
+
+.articulos3{
+    display: flex;
+    margin-top: 40px;
+}
+
+.articulos4{
+    display: flex;
+    padding-top: 60px;
+}
+
+* img{
+    width: 300px;
+    height: 200px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
